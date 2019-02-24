@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+    /* Let's make it easy with flexbox */
+    .crystal-game {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .crystal-crystals {
+        margin-top: 30px;
+        padding: 0 5%;
+    }
+
+    /* Makes bottom text white on mobile */
+    .crystal-wins-losses,
+    .crystal-score {
+        color: white;
+    }
+}
