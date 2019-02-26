@@ -24,7 +24,6 @@ Game.prototype.start = function (min, max) {
     this.showScore();
     this.showMatchNumber();
 
-    // Lets make this better
     this.setCrystalValues();
 };
 
@@ -38,7 +37,7 @@ Game.prototype.showMatchNumber = function () {
     $('.crystal-match-number').html(this.matchNumber);
 };
 
-// Sets the crystal values!
+// Sets the crystal values
 Game.prototype.setCrystalValues = function () {
     // Generates random numbers for the 4 crystals
     this.crystalValues = [];
@@ -50,7 +49,7 @@ Game.prototype.setCrystalValues = function () {
             this.config.crystalValuesRange.max
         );
 
-        // If the number is not in the array, inserts it.
+   
         if (this.crystalValues.indexOf(number) === -1) {
             this.crystalValues.push(number);
         }

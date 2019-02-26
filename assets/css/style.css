@@ -25,7 +25,7 @@ body {
     margin: 50px 0;
   }
   
-  /* We are going to make the crystals to move up and down when hover */
+  /* Makes the crystals move up and down when hover */
   @keyframes moving {
       0% {
           transform: translateY(-5px);
