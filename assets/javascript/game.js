@@ -109,7 +109,6 @@ Game.prototype.checkState = function () {
     }
 };
 
-
 var defaultConfig = {
     minNumber: 20,
     maxNumber: 50,
